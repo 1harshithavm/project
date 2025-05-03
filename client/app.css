@@ -1,0 +1,26 @@
+/* Add to your CSS file */
+.single-product {
+  display: flex;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.product-image-container {
+  flex: 1;
+  min-width: 300px;
+}
+
+.product-details {
+  flex: 1;
+}
+
+.product-card {
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.product-card:hover {
+  transform: scale(1.03);
+}
